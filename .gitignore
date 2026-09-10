@@ -1,0 +1,36 @@
+# ---- Build artifacts ----
+build/
+install/
+log/
+cache/
+
+# ---- CMake ----
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+*.cmake
+!CMakeLists.txt
+
+# ---- Compiled objects / libraries ----
+*.o
+*.a
+*.so
+*.so.*
+*.dylib
+*.dll
+*.lib
+
+# ---- IDE / Editor ----
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# ---- clangd / compile_commands ----
+.cache/
+compile_commands.json
+
