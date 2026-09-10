@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<package format="3">
+  <name>alsa_rt</name>
+  <version>0.1.0</version>
+  <description>Low-latency, self-healing ALSA audio library with lock-free SPSC ring, priority playback and FFmpeg-based resampler.</description>
+  <maintainer email="hankknight@live.com">hankknight</maintainer>
+  <license>Apache-2.0</license>
+
+  <buildtool_depend>ament_cmake</buildtool_depend>
+
+  <depend>alsa</depend>
+  <depend>libswresample</depend>
+  <depend>libavutil</depend>
+
+  <build_depend>pkg-config</build_depend>
+
+  <test_depend>ament_lint_auto</test_depend>
+  <test_depend>ament_lint_common</test_depend>
+
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
+</package>
+
